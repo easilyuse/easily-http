@@ -8,6 +8,7 @@
 	<version>1.0.0.RELEASE</version>
 	<name>easily-http</name>
 	<description>Easy implementation of http client remote calls through annotations</description>
+	<url>https://github.com/easilyuse/easily-http</url>
 	
 	<distributionManagement>
 		<snapshotRepository>
