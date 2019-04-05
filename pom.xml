@@ -92,6 +92,7 @@
 	</developers>
 
 	<properties>
+	        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		    <java.version>1.8</java.version>
 			<commons-beanutils.version>1.9.3</commons-beanutils.version>
 			<cglib.version>3.2.10</cglib.version>
@@ -156,7 +157,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>    
                 <configuration>    
                     <source>${java.version}</source>    
-                    <target>${java.version}</target>    
+                    <target>${java.version}</target> 
+                    <encoding>utf8</encoding>    
                 </configuration>    
             </plugin>
             <!-- sonatype提供了自动release的插件，这意味着运行mvn clean deploy后不用手动去close-> release了，此插件会自动release我们的项目到Maven中央仓库。 -->
